@@ -1,1 +1,83 @@
+.header {
 
+}
+.header__top {
+    background-color: $color-main;
+    color: #fff;
+}
+.header__top-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__contacts {
+    flex: 0 1 auto;
+
+    display: flex;
+    align-items: center;
+}
+.header__contacts-phone {
+    text-decoration: none;
+    color: inherit;
+    flex: 0 1 auto;
+    transition: .3s;
+
+    display: flex;
+    align-items: center;
+
+    &:hover, &:active {
+        color: $color-accent;
+    }
+}
+.header__contacts-phone-icon {
+    display: block;
+    flex: 0 0 auto;
+    width: 1.1rem;
+    height: 1.1rem;
+    svg {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+}
+.header__contacts-phone-text {
+    display: block;
+    flex: 0 1 auto;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.header__contacts-callback {
+    text-decoration: none;
+    color: inherit;
+    flex: 0 1 auto;
+    transition: .3s;
+
+    display: flex;
+    align-items: center;
+
+    &:hover, &:active {
+        color: $color-accent;
+    }
+}
+.header__contacts-callback-text {
+    display: block;
+    flex: 0 1 auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header__contacts-callback-icon {
+    display: block;
+    flex: 0 0 auto;
+    width: 2.9rem;
+    height: 2.2rem;
+    svg {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+}

@@ -26,26 +26,96 @@
 
 <body>
 
-	<picture>
+	<header class="header">
+		<div class="header__top">
+			<div class="container">
+				<div class="header__top-box">
+					<div class="header__contacts">
+						<a href="tel:88007771283" class="header__contacts-phone">
+							<span class="header__contacts-phone-icon">
+								<svg><use href="#icon-"/></svg>
+							</span>
+							<span class="header__contacts-phone-text">8-800-777-12-83</span>
+						</a>
+						<a href="#" class="header__contacts-callback">
+							<span class="header__contacts-callback-text">перезвоните мне</span>
+							<span class="header__contacts-callback-icon">
+								<svg><use href="#icon-"/></svg>
+							</span>
+						</a>
+					</div>
+					<div class="header__specoffers">
+						<span class="header__contacts-phone-icon">
+							<svg><use href="#icon-"/></svg>
+						</span>
+						<span class="header__contacts-phone-text">СПЕЦПРЕДЛОЖЕНИЯ</span>
+					</div>
+					<ul class="header__nav">
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="header__middle">
+			<div class="container">
+				<div class="header__middle-box">
+					<figure class="header__logo">
+						<img src="img/logo.png" alt="">
+					</figure>
+					<button class="header__catalog-button">Каталог техники</button>
+					<ul class="header__menu">
+						<li><a href="#"><span>Техника в наличии</span><span>Более 40 вариантов</span></a></li>
+						<li><a href="#"><span>Кредит и лизинг</span><span>Низкие ставки</span></a></li>
+						<li><a href="#"><span>Сервис и ТО</span><span>Официальный дилер</span></a></li>
+						<li><a href="#"><span>Трейд-ин</span><span>Оценим выше рынка</span></a></li>
+					</ul>
+					<form class="header__search">
+						<input type="text" placeholder="Поиск по каталогу">
+						<button type="submit">
+							<svg><use href="#icon-"/></svg>
+						</button>
+					</form>
+					<div class="header__buttons">
+						<a href="#" class="header__button">
+							<span class="header__button-icon">
+								<svg><use href="#icon-"/></svg>
+							</span>
+							<span class="header__button-text">Конфигуратор</span>
+						</a>
+						<a href="#" class="header__button">
+							<span class="header__button-icon">
+								<svg><use href="#icon-"/></svg>
+							</span>
+							<span class="header__button-text">Список сравнения</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--<picture>
 		<source data-lazy-load="img/bg-header.jpg" srcset="data:image/svg+xml,%3Csvg;xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E" type="image/webp">
 		<img data-lazy-load="img/bg-header.jpg" src="data:image/svg+xml,%3Csvg;xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E" alt="">
 	</picture>
 
-	<svg><use href="#icon-"/></svg>
+
 
 	<div hidden>
 
-		<!-- SVG SPRITE -->
+		&lt;!&ndash; SVG SPRITE &ndash;&gt;
 		<svg xmlns="http://www.w3.org/2000/svg">
 			<symbol id="icon-" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
 			</symbol>
 		</svg>
-	</div>
+	</div>-->
 
 	<!-- Load Scripts Start -->
 	<!-- <script src="libs/jquery/jquery-3.1.1.min.js" defer></script> -->
 	<script src="js/scripts.js" defer></script>
-	<script src="js/common.js" defer></script>
+	<!--<script src="js/common.js" defer></script>-->
 	<!-- Load Scripts End -->
 
 </body>
