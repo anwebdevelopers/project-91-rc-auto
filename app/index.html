@@ -33,23 +33,21 @@
 					<div class="header__contacts">
 						<a href="tel:88007771283" class="header__contacts-phone">
 							<span class="header__contacts-phone-icon">
-								<svg><use href="#icon-"/></svg>
+								<svg><use href="#icon-phone"/></svg>
 							</span>
 							<span class="header__contacts-phone-text">8-800-777-12-83</span>
 						</a>
-						<a href="#" class="header__contacts-callback">
-							<span class="header__contacts-callback-text">перезвоните мне</span>
-							<span class="header__contacts-callback-icon">
-								<svg><use href="#icon-"/></svg>
-							</span>
+						<a href="#" class="header__contacts-callback">перезвоните мне</a>
+						<a href="mailto:" class="header__contacts-email">
+							<svg><use href="#icon-mail"/></svg>
 						</a>
 					</div>
-					<div class="header__specoffers">
-						<span class="header__contacts-phone-icon">
-							<svg><use href="#icon-"/></svg>
+					<a href="#" class="header__specoffers">
+						<span class="header__specoffers-icon">
+							<svg><use href="#icon-specoffer"/></svg>
 						</span>
-						<span class="header__contacts-phone-text">СПЕЦПРЕДЛОЖЕНИЯ</span>
-					</div>
+						<span class="header__specoffers-text">СПЕЦПРЕДЛОЖЕНИЯ</span>
+					</a>
 					<ul class="header__nav">
 						<li><a href="#">О компании</a></li>
 						<li><a href="#">Новости</a></li>
@@ -61,61 +59,150 @@
 		<div class="header__middle">
 			<div class="container">
 				<div class="header__middle-box">
-					<figure class="header__logo">
-						<img src="img/logo.png" alt="">
-					</figure>
-					<button class="header__catalog-button">Каталог техники</button>
-					<ul class="header__menu">
-						<li><a href="#"><span>Техника в наличии</span><span>Более 40 вариантов</span></a></li>
-						<li><a href="#"><span>Кредит и лизинг</span><span>Низкие ставки</span></a></li>
-						<li><a href="#"><span>Сервис и ТО</span><span>Официальный дилер</span></a></li>
-						<li><a href="#"><span>Трейд-ин</span><span>Оценим выше рынка</span></a></li>
-					</ul>
-					<form class="header__search">
-						<input type="text" placeholder="Поиск по каталогу">
-						<button type="submit">
-							<svg><use href="#icon-"/></svg>
+					<!--<div class="header__middle-item">-->
+						<figure class="header__logo">
+							<img src="img/logo.svg" alt="">
+						</figure>
+						<button class="header__catalog-button">
+							<span class="header__catalog-icon">
+								<svg><use href="#icon-catalog"/></svg>
+							</span>
+							<span class="header__catalog-text">Каталог техники</span>
 						</button>
-					</form>
-					<div class="header__buttons">
-						<a href="#" class="header__button">
-							<span class="header__button-icon">
-								<svg><use href="#icon-"/></svg>
-							</span>
-							<span class="header__button-text">Конфигуратор</span>
-						</a>
-						<a href="#" class="header__button">
-							<span class="header__button-icon">
-								<svg><use href="#icon-"/></svg>
-							</span>
-							<span class="header__button-text">Список сравнения</span>
-						</a>
-					</div>
+					<!--</div>
+					<div class="header__middle-item">-->
+						<ul class="header__menu">
+							<li><a href="#"><span>Техника в наличии</span>Более 40 вариантов</a></li>
+							<li><a href="#"><span>Кредит и лизинг</span>Низкие ставки</a></li>
+							<li><a href="#"><span>Сервис и ТО</span>Официальный дилер</a></li>
+							<li><a href="#"><span>Трейд-ин</span>Оценим выше рынка</a></li>
+						</ul>
+						<form class="header__search">
+							<input type="text" placeholder="Поиск по каталогу">
+							<button type="submit">
+								<svg><use href="#icon-loupe"/></svg>
+							</button>
+						</form>
+						<div class="header__buttons">
+							<a href="#" class="header__button">
+								<span class="header__button-icon">
+									<svg><use href="#icon-config"/></svg>
+								</span>
+								<span class="header__button-text">Конфигуратор</span>
+							</a>
+							<a href="#" class="header__button">
+								<span class="header__button-icon">
+									<svg><use href="#icon-compare"/></svg>
+								</span>
+								<span class="header__button-text" data-button-count="2">Список сравнения</span>
+							</a>
+						</div>
+						<button class="header__menu-button"></button>
+					<!--</div>-->
 				</div>
 			</div>
 		</div>
 	</header>
 
+	<section class="home" style="background-image: url('img/bg-home.png')">
+		<div class="container">
+			<!--<div class="home__background">
+				<figure class="home__background-item"><img src="" alt=""></figure>
+				<figure class="home__background-item"><img src="" alt=""></figure>
+				<figure class="home__background-item"><img src="" alt=""></figure>
+			</div>-->
+			<div class="home__box">
+				<div class="home__content">
+					<div class="home__suptitle">РЕГИОНАЛЬНЫЙ ЦЕНТР СПЕЦТЕХНИКА</div>
+					<h1 class="home__title">Автомобильная и тракторная спецтехника любых конфигураций точно в срок по цене от дилера!</h1>
+					<div class="home__buttons">
+						<a href="#" class="button">Выбрать модель в наличии</a>
+						<a href="#" class="button">Создать конфигурацию</a>
+					</div>
+				</div>
+				<div class="home__slider">
+					<div class="home__slider-item" style="background-image: url('img/img-home-slider-1.png')">
+						<div class="home__slider-item-mark">
+							<div class="home__slider-item-mark-icon"><svg><use href="#icon-light"/></svg></div>
+							<div class="home__slider-item-mark-text">АКЦИЯ</div>
+						</div>
+						<div class="home__slider-item-title">СКИДКИ НА РЕМОНТ</div>
+						<div class="home__slider-item-button">
+							<a href="#" class="button">ПОДРОБНЕЕ</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</section>
+
 	<!--<picture>
 		<source data-lazy-load="img/bg-header.jpg" srcset="data:image/svg+xml,%3Csvg;xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E" type="image/webp">
 		<img data-lazy-load="img/bg-header.jpg" src="data:image/svg+xml,%3Csvg;xmlns='http://www.w3.org/2000/svg'%3E%3C/svg%3E" alt="">
-	</picture>
+	</picture>-->
 
 
 
 	<div hidden>
 
-		&lt;!&ndash; SVG SPRITE &ndash;&gt;
+		<!-- SVG SPRITE -->
 		<svg xmlns="http://www.w3.org/2000/svg">
+
+			<symbol id="icon-phone" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M10.7534 8.70047L9.05462 6.99765C8.71626 6.65988 8.15592 6.67015 7.80576 7.02122L6.94991 7.87882C6.89584 7.84895 6.83987 7.81775 6.78103 7.78465C6.24057 7.48451 5.50085 7.07313 4.72246 6.2924C3.94176 5.51003 3.53093 4.7675 3.23055 4.22546C3.19885 4.16804 3.16848 4.11267 3.13849 4.06009L3.71289 3.48524L3.99529 3.20186C4.34598 2.85028 4.35565 2.28883 4.01808 1.95008L2.3193 0.247069C1.98172 -0.0912077 1.42113 -0.0809454 1.07044 0.270634L0.591668 0.753249L0.604751 0.766267C0.444212 0.971577 0.310061 1.20837 0.210229 1.46372C0.118203 1.70679 0.0609085 1.93874 0.0347103 2.17116C-0.189602 4.03498 0.660182 5.73836 2.96639 8.04983C6.15426 11.2447 8.72327 11.0033 8.8341 10.9916C9.07548 10.9626 9.30681 10.9048 9.5419 10.8133C9.79446 10.7145 10.0306 10.5802 10.2353 10.4196L10.2457 10.4289L10.7308 9.95292C11.0807 9.6014 11.0908 9.03976 10.7534 8.70047Z" fill="white"/>
+			</symbol>
+
+			<symbol id="icon-mail" viewBox="0 0 29 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M26.2812 0H2.71877C1.21955 0 0 1.23356 0 2.75002V19.25C0 20.7664 1.21955 22 2.71877 22H26.2812C27.7805 22 29 20.7664 29 19.25V2.75002C29 1.23356 27.7805 0 26.2812 0ZM26.2812 1.83332C26.4044 1.83332 26.5215 1.85916 26.6286 1.90429L14.5 12.537L2.37136 1.90429C2.47844 1.85922 2.59558 1.83332 2.71871 1.83332H26.2812ZM1.81249 19.2499C1.81249 19.7558 2.21875 20.1666 2.71877 20.1666H26.2812C26.7813 20.1666 27.1874 19.7558 27.1875 19.25V3.84122L15.0939 14.4428C14.923 14.5924 14.7115 14.6666 14.5 14.6666C14.2885 14.6666 14.077 14.5923 13.9061 14.4428L1.81249 3.84122V19.2499Z" fill="white"/>
+			</symbol>
+
+			<symbol id="icon-specoffer" viewBox="0 0 31 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M16.3708 27.3459C15.8208 27.0799 15.1792 27.0799 14.6292 27.3459L12.4375 28.4059C11.4722 28.8728 10.3104 28.4954 9.80389 27.5502L8.65387 25.4044C8.36524 24.8659 7.84625 24.4888 7.24485 24.3807L4.84869 23.9501C3.79329 23.7604 3.07527 22.7721 3.22102 21.7098L3.55191 19.2978C3.63496 18.6924 3.43672 18.0823 3.01371 17.6414L1.3283 15.8846C0.585954 15.1108 0.585953 13.8892 1.3283 13.1154L3.01371 11.3586C3.43672 10.9177 3.63496 10.3076 3.55191 9.70219L3.22102 7.29023C3.07528 6.22788 3.79329 5.23961 4.84869 5.04994L7.24485 4.6193C7.84624 4.51121 8.36524 4.13414 8.65387 3.59558L9.80389 1.44977C10.3104 0.50464 11.4722 0.127157 12.4375 0.594052L14.6292 1.65409C15.1792 1.92014 15.8208 1.92014 16.3708 1.65409L18.5625 0.594052C19.5278 0.127157 20.6896 0.504639 21.1961 1.44977L22.3461 3.59558C22.6348 4.13414 23.1538 4.51121 23.7552 4.6193L26.1513 5.04994C27.2067 5.23961 27.9247 6.22787 27.779 7.29023L27.4481 9.70219C27.365 10.3076 27.5633 10.9177 27.9863 11.3586L29.6717 13.1154C30.414 13.8892 30.414 15.1108 29.6717 15.8846L27.9863 17.6414C27.5633 18.0823 27.365 18.6924 27.4481 19.2978L27.779 21.7098C27.9247 22.7721 27.2067 23.7604 26.1513 23.9501L23.7552 24.3807C23.1538 24.4888 22.6348 24.8659 22.3461 25.4044L21.1961 27.5502C20.6896 28.4954 19.5278 28.8728 18.5625 28.4059L16.3708 27.3459Z" fill="#FFB700"/>
+				<path d="M10.72 19.44L18.8 8.624L19.84 9.408L11.776 20.176L10.72 19.44ZM9.472 13.584C8.88533 13.0507 8.592 12.3573 8.592 11.504C8.592 10.6507 8.88533 9.96267 9.472 9.44C10.0693 8.91733 10.8267 8.656 11.744 8.656C12.6613 8.656 13.4133 8.91733 14 9.44C14.5973 9.96267 14.896 10.6507 14.896 11.504C14.896 12.3573 14.5973 13.0507 14 13.584C13.4133 14.1067 12.6613 14.368 11.744 14.368C10.8267 14.368 10.0693 14.1067 9.472 13.584ZM10.32 11.504C10.32 11.92 10.4533 12.256 10.72 12.512C10.9973 12.7573 11.3387 12.88 11.744 12.88C12.1707 12.88 12.5173 12.7573 12.784 12.512C13.0507 12.256 13.184 11.92 13.184 11.504C13.184 11.0987 13.0453 10.7733 12.768 10.528C12.5013 10.272 12.16 10.144 11.744 10.144C11.3387 10.144 10.9973 10.272 10.72 10.528C10.4533 10.7733 10.32 11.0987 10.32 11.504ZM16.544 19.376C15.9573 18.8427 15.664 18.1493 15.664 17.296C15.664 16.4427 15.9573 15.7547 16.544 15.232C17.1413 14.7093 17.8987 14.448 18.816 14.448C19.7333 14.448 20.4853 14.7093 21.072 15.232C21.6693 15.7547 21.968 16.4427 21.968 17.296C21.968 18.1493 21.6693 18.8427 21.072 19.376C20.4853 19.8987 19.7333 20.16 18.816 20.16C17.8987 20.16 17.1413 19.8987 16.544 19.376ZM17.392 17.296C17.392 17.712 17.5253 18.048 17.792 18.304C18.0693 18.5493 18.4107 18.672 18.816 18.672C19.2427 18.672 19.5893 18.5493 19.856 18.304C20.1227 18.048 20.256 17.712 20.256 17.296C20.256 16.8907 20.1173 16.5653 19.84 16.32C19.5733 16.064 19.232 15.936 18.816 15.936C18.4107 15.936 18.0693 16.064 17.792 16.32C17.5253 16.5653 17.392 16.8907 17.392 17.296Z" fill="#0057AA"/>
+			</symbol>
+
+			<symbol id="icon-config" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect x="1" y="15" width="8" height="8" stroke="#0057AA" stroke-width="2"/>
+				<rect x="13" y="15" width="8" height="8" stroke="#0057AA" stroke-width="2"/>
+				<rect x="14" width="10" height="10" rx="5" fill="#FFB700"/>
+				<rect x="1" y="3" width="8" height="8" stroke="#0057AA" stroke-width="2"/>
+			</symbol>
+
+			<symbol id="icon-compare" viewBox="0 0 18 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M3 16C4.65685 16 6 14.6569 6 13C6 11.3431 4.65685 10 3 10C1.34315 10 0 11.3431 0 13C0 14.6569 1.34315 16 3 16Z" fill="#0057AA"/>
+				<path d="M15 16C16.6569 16 18 14.6569 18 13C18 11.3431 16.6569 10 15 10C13.3431 10 12 11.3431 12 13C12 14.6569 13.3431 16 15 16Z" fill="#FFB700"/>
+				<path d="M3 6C4.65685 6 6 4.65685 6 3C6 1.34315 4.65685 0 3 0C1.34315 0 0 1.34315 0 3C0 4.65685 1.34315 6 3 6Z" fill="#0057AA"/>
+				<path d="M15 6C16.6569 6 18 4.65685 18 3C18 1.34315 16.6569 0 15 0C13.3431 0 12 1.34315 12 3C12 4.65685 13.3431 6 15 6Z" fill="#FFB700"/>
+				<path d="M3 26C4.65685 26 6 24.6569 6 23C6 21.3431 4.65685 20 3 20C1.34315 20 0 21.3431 0 23C0 24.6569 1.34315 26 3 26Z" fill="#FFB700"/>
+				<path d="M15 26C16.6569 26 18 24.6569 18 23C18 21.3431 16.6569 20 15 20C13.3431 20 12 21.3431 12 23C12 24.6569 13.3431 26 15 26Z" fill="#0057AA"/>
+			</symbol>
+
+			<symbol id="icon-catalog" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect width="4" height="4" fill="#FFB700"/>
+				<rect x="10" width="4" height="4" fill="#FFB700"/>
+				<rect x="20" width="4" height="4" fill="#FFB700"/>
+				<rect x="20" y="10" width="4" height="4" fill="#FFB700"/>
+				<rect x="10" y="10" width="4" height="4" fill="#FFB700"/>
+				<rect y="10" width="4" height="4" fill="#FFB700"/>
+				<rect y="20" width="4" height="4" fill="#FFB700"/>
+				<rect x="10" y="20" width="4" height="4" fill="#FFB700"/>
+				<rect x="20" y="20" width="4" height="4" fill="#FFB700"/>
+			</symbol>
+
+			<symbol id="icon-loupe" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path fill-rule="evenodd" clip-rule="evenodd" d="M17.0835 15.1486L22.3763 20.4376C22.7357 20.7922 22.7357 21.3759 22.3763 21.7306C22.0168 22.0898 21.4372 22.0898 21.0778 21.7306L15.785 16.4461C14.1855 17.7571 12.1412 18.5429 9.90818 18.5429C4.78166 18.5429 0.630127 14.3898 0.630127 9.27143C0.630127 4.15306 4.78166 0 9.90818 0C15.0302 0 19.1862 4.15306 19.1862 9.27143C19.1862 11.5029 18.3955 13.5502 17.0835 15.1486ZM2.47226 9.27143C2.47226 13.3661 5.80606 16.6975 9.90816 16.6975C14.0058 16.6975 17.3441 13.3661 17.3441 9.27143C17.3441 5.17673 14.0058 1.84082 9.90816 1.84082C5.80606 1.84082 2.47226 5.17673 2.47226 9.27143Z" fill="#1D3864"/>
+			</symbol>
+
 			<symbol id="icon-" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
 			</symbol>
 		</svg>
-	</div>-->
+	</div>
 
 	<!-- Load Scripts Start -->
 	<!-- <script src="libs/jquery/jquery-3.1.1.min.js" defer></script> -->
 	<script src="js/scripts.js" defer></script>
-	<!--<script src="js/common.js" defer></script>-->
+	<script src="js/main.js" defer></script>
 	<!-- Load Scripts End -->
 
 </body>
