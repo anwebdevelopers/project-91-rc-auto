@@ -123,6 +123,39 @@ body {
 	clear: both;
 }
 
+.button {
+	@include btn;
+	padding: 1.5rem 2.5rem;
+	font-size: 1.8rem;
+	font-weight: 700;
+	color: #fff;
+	background-color: $color-main;
+	transition: .3s;
+
+	&:hover, &:active {
+		background-color: #1D3864;
+	}
+	&.button_color_darken {
+		background-color: #1D3864;
+
+		&:hover, &:active {
+			background-color: #1D3864;
+		}
+	}
+	&.button_color_white {
+		background-color: #fff;
+		color: #1D3864;;
+		&:hover, &:active {
+			color: #fff;
+			background-color: #1D3864;
+		}
+	}
+	&.button_size_small {
+		font-size: 1.2rem;
+		padding: 1rem 2rem;
+	}
+}
+
 .text {
 	&:not( :first-child ) {
 		margin-top: 6rem;
@@ -282,12 +315,14 @@ body {
 
 //Custom Styles Here
 @import 'components/header.scss';
-
+@import "components/home";
+@import "components/advantages";
 
 
 //ALWAYS END
 
 //Load Libs
+@import "../../app/libs/swiper/css/swiper.min";
 //@import 'app/libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css';
 //@import 'app/libs/magnific-popup/dist/magnific-popup.css';
 //@import 'build/scss/components/magnific-popup.scss';

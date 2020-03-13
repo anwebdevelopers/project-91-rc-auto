@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/advantages.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/bg-header.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/img/img-header-organizer.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/components/_media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/_media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/_vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/_vars.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <list id="bf1cc2a1-eed9-4673-be9b-2a8bb0ebd5de" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +61,9 @@
       <workItem from="1565691483940" duration="2040000" />
       <workItem from="1583720783781" duration="3973000" />
       <workItem from="1583830855738" duration="6928000" />
-      <workItem from="1583893383245" duration="20061000" />
+      <workItem from="1583893383245" duration="20246000" />
+      <workItem from="1583984067703" duration="7297000" />
+      <workItem from="1584092284191" duration="10654000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -74,7 +79,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583844976384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Верстка хедера + главной 10.03.2020">
+      <created>1583931034237</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583931034237</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Верстка хедера + главной 10.03.2020">
+      <created>1583931046654</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583931046654</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,20 +117,25 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Стартовый коммит" />
     <MESSAGE value="Верстка хедера 10.03.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Верстка хедера 10.03.2020" />
+    <MESSAGE value="Верстка хедера + главной 10.03.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Верстка хедера + главной 10.03.2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1583931039783">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1583931046182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583931039783" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583844978246">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583931046182" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583931049944">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583844978246" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583893638395">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583931049944" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584092323294">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1583893638395" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584092323294" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584094610888">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584094610888" />
   </component>
 </project>
