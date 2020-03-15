@@ -1,0 +1,29 @@
+.configurator {
+    padding: 3rem 2rem;
+    color: #fff;
+    background-color: #0057AA;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+.configurator__suptitle {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+
+    opacity: 0.4;
+}
+.configurator__title {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+.configurator__text {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.33;
+}
+.configurator__button {
+    margin-top: 2rem;
+}

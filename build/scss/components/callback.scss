@@ -1,0 +1,29 @@
+.callback {
+    padding: 3rem 2rem;
+    color: #333333;
+    background-color: #F0F8FF;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+}
+.callback__suptitle {
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .1em;
+
+    opacity: 0.4;
+}
+.callback__title {
+    margin-top: 2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 1.33;
+}
+.callback__text {
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    line-height: 1.33;
+}
+.callback__button {
+    margin-top: 2rem;
+}
