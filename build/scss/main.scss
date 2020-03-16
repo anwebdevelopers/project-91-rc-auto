@@ -156,16 +156,17 @@ body {
 		padding: 1rem 2rem;
 	}
 	&.button_decorated {
-		margin-right: 3rem;
-		padding-right: 6rem;
+		text-align: left;
+		margin-right: 2rem;
+		padding-right: 4rem;
 		position: relative;
 		&:before {
 			content: '';
 			position: absolute;
 			top: 50%;
 			transform: translateY(-50%);
-			right: -3rem;
-			width: 6rem;
+			right: -2rem;
+			width: 4rem;
 			height: 2px;
 			background-color: $color-accent;
 		}
@@ -180,6 +181,7 @@ body {
 	line-height: 1.12;
 	text-transform: uppercase;
 	color: #1D3864;
+	word-wrap: break-word;
 }
 
 .text {
@@ -361,6 +363,9 @@ body {
 @import "components/manufacturers";
 @import "components/tender";
 @import "components/services";
+@import "components/gallery";
+@import "components/specoffers";
+@import "components/footer";
 
 //ALWAYS END
 

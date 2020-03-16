@@ -1,0 +1,244 @@
+.specoffers {
+    padding: 8rem 0;
+}
+.specoffers__title {
+    &:before {
+        content: '';
+        display: inline-block;
+        vertical-align: top;
+        width:1em;
+        height:1em;
+        margin-right: 1rem;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 52 52' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M26.8708 47.2627C26.3208 46.9966 25.6792 46.9966 25.1292 47.2627L19.6928 49.892C18.7275 50.3589 17.5657 49.9815 17.0592 49.0363L14.2066 43.7137C13.918 43.1751 13.399 42.7981 12.7976 42.69L6.85401 41.6218C5.79861 41.4321 5.0806 40.4439 5.22634 39.3815L6.04711 33.3987C6.13016 32.7934 5.93192 32.1833 5.50891 31.7423L1.3283 27.3846C0.585953 26.6108 0.585953 25.3892 1.3283 24.6154L5.50891 20.2577C5.93192 19.8167 6.13016 19.2066 6.04711 18.6013L5.22634 12.6185C5.0806 11.5561 5.79861 10.5679 6.85401 10.3782L12.7976 9.31C13.399 9.20192 13.918 8.82485 14.2066 8.28629L17.0592 2.96367C17.5657 2.01855 18.7275 1.64106 19.6928 2.10796L25.1292 4.73734C25.6792 5.00339 26.3208 5.00339 26.8708 4.73734L32.3072 2.10796C33.2725 1.64106 34.4343 2.01855 34.9408 2.96367L37.7934 8.28629C38.082 8.82485 38.601 9.20192 39.2024 9.31L45.146 10.3782C46.2014 10.5679 46.9194 11.5561 46.7737 12.6185L45.9529 18.6013C45.8698 19.2066 46.0681 19.8167 46.4911 20.2577L50.6717 24.6154C51.414 25.3892 51.414 26.6108 50.6717 27.3846L46.4911 31.7423C46.0681 32.1833 45.8698 32.7934 45.9529 33.3987L46.7737 39.3815C46.9194 40.4439 46.2014 41.4321 45.146 41.6218L39.2024 42.69C38.601 42.7981 38.082 43.1751 37.7934 43.7137L34.9408 49.0363C34.4343 49.9815 33.2725 50.3589 32.3072 49.892L26.8708 47.2627Z' fill='%23FFB700'/%3E%3Cpath d='M18.68 32.778L31.602 15.488L33.786 17.126L20.916 34.312L18.68 32.778ZM16.314 23.886C15.2913 22.9847 14.78 21.7973 14.78 20.324C14.78 18.8507 15.2913 17.6807 16.314 16.814C17.3367 15.93 18.654 15.488 20.266 15.488C21.878 15.488 23.1953 15.93 24.218 16.814C25.2407 17.6807 25.752 18.8507 25.752 20.324C25.752 21.7973 25.2407 22.9847 24.218 23.886C23.1953 24.77 21.878 25.212 20.266 25.212C18.654 25.212 17.3367 24.77 16.314 23.886ZM18.42 20.324C18.42 20.8787 18.5933 21.312 18.94 21.624C19.2867 21.936 19.7287 22.092 20.266 22.092C20.838 22.092 21.2887 21.936 21.618 21.624C21.9473 21.312 22.112 20.8787 22.112 20.324C22.112 19.804 21.9387 19.388 21.592 19.076C21.2627 18.764 20.8207 18.608 20.266 18.608C19.7113 18.608 19.2607 18.764 18.914 19.076C18.5847 19.388 18.42 19.804 18.42 20.324ZM28.352 32.986C27.3293 32.0847 26.818 30.8973 26.818 29.424C26.818 27.9507 27.3293 26.7807 28.352 25.914C29.3747 25.03 30.692 24.588 32.304 24.588C33.916 24.588 35.2333 25.03 36.256 25.914C37.2787 26.7807 37.79 27.9507 37.79 29.424C37.79 30.8973 37.2787 32.0847 36.256 32.986C35.2333 33.87 33.916 34.312 32.304 34.312C30.692 34.312 29.3747 33.87 28.352 32.986ZM30.458 29.424C30.458 29.9787 30.6313 30.412 30.978 30.724C31.3247 31.036 31.7667 31.192 32.304 31.192C32.876 31.192 33.3267 31.036 33.656 30.724C33.9853 30.412 34.15 29.9787 34.15 29.424C34.15 28.904 33.9767 28.488 33.63 28.176C33.3007 27.864 32.8587 27.708 32.304 27.708C31.7493 27.708 31.2987 27.864 30.952 28.176C30.6227 28.488 30.458 28.904 30.458 29.424Z' fill='white'/%3E%3C/svg%3E%0A");
+        background-position: 50% 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.specoffers__box {
+
+    display: flex;
+    flex-wrap: wrap;
+    &.swiper {
+        margin: 7rem 0 0 0;
+        .specoffers__container.swiper-container {
+            .specoffers__wrapper.swiper-wrapper {
+                .specoffers__item.swiper-slide {
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    position: relative;
+    .specoffers__nav {
+        position: absolute;
+        z-index: 1;
+
+        top: 50%;
+        left: 0;
+        right: 0;
+        margin: 0 -10rem;
+
+        .swiper-button-prev,
+        .swiper-button-next {
+
+            position: initial;
+            top: initial;
+            right: initial;
+            left: initial;
+            width: initial;
+            height: initial;
+            margin-top: initial;
+            z-index: initial;
+            cursor: initial;
+            background-size: initial;
+            background-position: initial;
+            background-repeat: initial;
+
+            @include btn;
+            width: 6.4rem;
+            height: 6.4rem;
+            color: #fff;
+            background-color: $color-accent;
+            border-radius: 50%;
+            background-image: none;
+            //background-image: linear-gradient(currentColor, currentColor);
+            //background-position: 0 50%;
+            //background-size: 100% 1px;
+            //background-repeat: no-repeat;
+            transition: .3s;
+
+            position: absolute;
+            top: 0;
+
+            //&:after {
+            //    display: none;
+            //}
+            &:before {
+                content: '';
+                position: absolute;
+                top: 50%;
+                width: 1.5rem;
+                height: 1.5rem;
+                border-left: 3px solid currentColor;
+                border-top: 3px solid currentColor;
+            }
+
+            //&.swiper-button-disabled {
+            //    opacity: initial;
+            //    cursor: initial;
+            //    pointer-events: initial;
+            //
+            //    cursor: auto;
+            //    pointer-events: none;
+            //    width: 2rem;
+            //    color: #3F4440;
+            //    //background-image: linear-gradient(#3F4440, #3F4440);
+            //}
+            &:hover, &:active {
+                background-color: $color-main;
+            }
+        }
+
+        .swiper-button-prev {
+            left: 0;
+            transform: translateY(-50%);
+
+            &:before {
+                left: calc(50% - .5rem);
+                transform: translateY(-50%) rotate(-45deg);
+            }
+        }
+
+        .swiper-button-next {
+            right: 0;
+            transform: translateY(-50%);
+
+            &:before {
+                right: calc(50% - .5rem);
+                transform: translateY(-50%) rotate(135deg);
+            }
+
+            &:after {
+                content: attr(data-specoffers-count);
+                position: absolute;
+                bottom: -1rem;
+                transform: translateY(100%);
+                left: 0;
+                right: 0;
+                font-size: 1.8rem;
+                font-family: inherit;
+                color: #1D3864;
+                text-align: center;
+            }
+        }
+    }
+}
+.specoffers__item {
+    flex: 0 0 auto;
+    width: calc(25% - 3rem);
+    margin: 3rem 1.5rem 0 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.specoffers__item-img {
+    margin: 0;
+    img {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+}
+.specoffers__item-price {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.specoffers__item-price-old {
+    flex: 0 1 auto;
+    margin-right: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+    text-decoration: line-through;
+    text-decoration-color: $color-accent;
+    text-decoration-width: 2px;
+}
+.specoffers__item-price-new {
+    flex: 0 1 auto;
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: $color-main;
+}
+.specoffers__item-title {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: #1D3864;
+    a {
+        color: inherit;
+        transition: .3s;
+
+        &:hover, &:active {
+            color: $color-accent;
+        }
+    }
+}
+.specoffers__item-button {
+    padding-top: 2rem;
+    margin-top: auto;
+}
+
+@media only screen and (max-width : 1440px) {
+    .specoffers__box {
+        .specoffers__nav {
+            margin: 0 -7rem;
+            //display: none;
+        }
+    }
+}
+
+@media only screen and (max-width : 1280px) {
+    .specoffers__box {
+        .specoffers__nav {
+            //margin: 0;
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    .specoffers__item {
+        width: calc(33.3333% - 3rem);
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+    .specoffers__item {
+        width: calc(50% - 3rem);
+    }
+}
+
+@media only screen and (max-width : 480px) {
+    .specoffers {
+        padding: 6rem 0;
+    }
+}
+
+@media only screen and (max-width : 360px) {
+    .specoffers__box {
+        display: block;
+    }
+    .specoffers__item {
+        width: auto;
+    }
+}

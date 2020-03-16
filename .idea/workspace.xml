@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/scss/components/callback.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/catalog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/configurator.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/manufacturers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/services.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/tender.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-creator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-footer-link-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-footer-link-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-specoffers-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-specoffers-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-specoffers-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-specoffers-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/specoffers.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/components/advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/advantages.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scss/components/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/main.scss" afterDir="false" />
     </list>
     <list id="bf1cc2a1-eed9-4673-be9b-2a8bb0ebd5de" name="ignore" comment="ignore" />
@@ -33,6 +43,7 @@
   <component name="ProjectId" id="1YsA9vgXQZSoVzoLaXkiBkkg7li" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,6 +51,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -65,7 +77,8 @@
       <workItem from="1583984067703" duration="7297000" />
       <workItem from="1584092284191" duration="10814000" />
       <workItem from="1584152383507" duration="9012000" />
-      <workItem from="1584244261703" duration="7226000" />
+      <workItem from="1584244261703" duration="7326000" />
+      <workItem from="1584327055119" duration="21374000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -116,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584104387336</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Верстка tender + services 15.03.2020">
+      <created>1584252001933</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584252001933</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,32 +158,34 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Стартовый коммит" />
     <MESSAGE value="Верстка хедера 10.03.2020" />
     <MESSAGE value="Верстка хедера + главной 10.03.2020" />
     <MESSAGE value="Верстка главной + преимущества 13.03.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Верстка главной + преимущества 13.03.2020" />
+    <MESSAGE value="Верстка tender + services 15.03.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Верстка tender + services 15.03.2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1584104386859">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1584252000500">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584104386859" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584104388699">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584252000500" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584252003655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584104388699" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584244299019">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584252003655" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584327055957">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584244299019" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584327055957" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1584153155521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584153155521" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584094610888">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584349957732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584094610888" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584349957732" />
   </component>
 </project>
