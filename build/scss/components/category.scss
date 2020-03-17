@@ -1,0 +1,106 @@
+.category {
+
+}
+.category__filter {
+    display: flex;
+    flex-wrap: wrap;
+}
+.category__filter-title {
+    flex: 0 1 auto;
+    margin-right: 2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1D3864;
+}
+.category__filter-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex: 0 1 auto;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $color-main;
+
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        flex: 0 1 auto;
+        margin-right: 2rem;
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: .3s;
+
+            &:hover, &:active {
+                color: $color-accent;
+            }
+        }
+        &.active {
+            a {
+                position: relative;
+                z-index: 1;
+                &:before {
+                    content: '';
+                    position: absolute;
+                    z-index: -1;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 3.7rem;
+                    height: 3.7rem;
+                    border-radius: 50%;
+                    background-color: $color-accent;
+                }
+            }
+        }
+    }
+}
+.category__box {
+    margin: 2rem -1.5rem 0 -1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.category__item {
+    flex: 0 0 auto;
+    width: calc(33.3333% - 3rem);
+    margin: 3rem 1.5rem 0 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.category__item-img {
+    margin: 0;
+    img {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
+}
+.category__item-price {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+}
+.category__item-title {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: #1D3864;
+    a {
+        color: inherit;
+        transition: .3s;
+
+        &:hover, &:active {
+            color: $color-accent;
+        }
+    }
+}
+.category__item-button {
+    padding-top: 2rem;
+    margin-top: auto;
+}

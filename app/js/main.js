@@ -81,13 +81,12 @@
                             .addClass( 'swiper-slide' )
                             .wrapAll( '<div class="gallery__container swiper-container"><div class="gallery__wrapper swiper-wrapper"></div></div>' )
                             .closest( '.gallery__container' )
-                            .after( '<div class="gallery__nav"><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>' )/*.after( '<div class="gallery__dots"></div>' )*/;
+                            .after( '<div class="gallery__nav"><div class="swiper-button-prev"></div><div class="swiper-button-next"></div></div>' );
 
                         const gallerySwiper = new Swiper( $gallery__box.find( '.gallery__container' ), {
 
                             speed: 600,
                             spaceBetween: 0,
-                            //autoHeight: true,
                             slidesPerView: 4,
                             loop: true,
                             loopedSlides: 20,
@@ -140,16 +139,14 @@
                             .addClass( 'swiper-slide' )
                             .wrapAll( '<div class="specoffers__container swiper-container"><div class="specoffers__wrapper swiper-wrapper"></div></div>' )
                             .closest( '.specoffers__container' )
-                            .after( '<div class="specoffers__nav"><div class="swiper-button-next"></div></div>' )/*.after( '<div class="specoffers__dots"></div>' )*/;
+                            .after( '<div class="specoffers__nav"><div class="swiper-button-next"></div></div>' );
 
                         const specoffersSwiper = new Swiper( $specoffers__box.find( '.specoffers__container' ), {
 
                             speed: 600,
                             spaceBetween: 30,
-                            //autoHeight: true,
                             slidesPerView: 4,
                             loop: true,
-                            //loopedSlides: 20,
                             autoplay: {
                                 delay: 3000,
                             },
@@ -197,6 +194,64 @@
                     } );
                 }
             });
+        }());
+
+        /*******************************************************/
+        //TABS
+        /*******************************************************/
+
+        (function() {
+
+            $('.tabs').each( function () {
+                const $tabs = $( this );
+                $tabs.prepend( '<div class="tabs__buttons"></div>' )
+                    .find( '.tabs__section' ).wrapAll( '<div class="tabs__box"></div>' )
+                    .each( function () {
+                        $tabs.find('.tabs__buttons').append( '<div class="tabs__buttons-item">' + $( this ).attr('data-tabs-title') + '</div>' );
+
+                    } );
+
+                $tabs.find( '> .tabs__buttons .tabs__buttons-item' ).first().attr( 'active', '' );
+                $tabs.find( '> .tabs__box > .tabs__section' ).not( ':first-child' ).hide();
+                $tabs.find( '> .tabs__buttons' ).on( 'click', '.tabs__buttons-item:not( [ active ] )', function() {
+                    $( this ).attr( 'active', '' ).siblings().removeAttr( 'active' ).closest( '.tabs' ).find( '> .tabs__box > .tabs__section' ).slideUp( 300 ).eq( $( this ).index() ).slideDown( 300 );
+                } );
+            } );
+
+        }());
+
+        /*******************************************************/
+        //NAV OPEN ACTIVE TAB
+        /*******************************************************/
+
+        (function() {
+            $('.nav').each( function () {
+                $( this ).closest('.tabs').find('.tabs__buttons-item').eq($( this ).closest('.tabs').find('.nav__item > .current').closest('.tabs__section').index()).click();
+            });
+        }());
+
+        /*******************************************************/
+        //ACCORDION
+        /*******************************************************/
+
+        (function() {
+
+            $('.accordion').each(function() {
+                const $this = $(this);
+
+                ($this.hasClass('current') || $this.find('.current').length) ? $this.addClass('active') : $this.children('.accordion__box').hide();
+            }).on('click', '.accordion__title', function(event) {
+                event.stopPropagation();
+
+                if (! $(this).closest('.accordion').hasClass('active')) {
+                    event.preventDefault();
+                    $(this).closest('.accordion').addClass('active')
+                        .children('.accordion__box').slideDown(200).end()
+                        .siblings().removeClass('active')
+                        .children('.accordion__box').slideUp(200);
+                }
+            });
+
         }());
 
     });

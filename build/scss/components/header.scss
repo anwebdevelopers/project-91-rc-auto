@@ -1,6 +1,10 @@
 .header {
     position: relative;
     z-index: 2;
+
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 .header__top {
     background-color: $color-main;
@@ -363,7 +367,7 @@
     line-height: 1;
     color: $color-main;
     //text-transform: uppercase;
-    border-bottom: 1px solid rgba(255,255,255,.5);
+    //border-bottom: 1px solid rgba(255,255,255,.5);
     &[data-button-count] {
         position: relative;
         padding-right: 2rem;
@@ -487,7 +491,63 @@
         }
     }
 }
+.header__bottom {
+    padding-bottom: 3rem;
+}
+.header__breadcrumbs {
+    padding: 0;
+    list-style: none;
+    margin: 4rem 0 0 0;
 
+    font-size: 1.6rem;
+    color: #333;
+
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        &:not(:last-child) {
+            padding-right: 2.5rem;
+            margin-right: 2rem;
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                top: .4em;
+                right: 0;
+                width: 1rem;
+                height: 1rem;
+                transform: rotate(45deg);
+                border-top: 1px solid $color-main;
+                border-right: 1px solid $color-main;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            transition: .3s;
+            opacity: .5;
+
+            &:hover, &:active {
+                opacity: 1;
+                color: $color-accent;
+            }
+        }
+    }
+}
+.header__title {
+    margin: 2rem 0 0 0;
+    padding-top: 3rem;
+    background-image: linear-gradient($color-accent,$color-accent);
+    background-position: 0 0;
+    -webkit-background-size: 7rem .7rem;
+    background-size: 7rem .7rem;
+    background-repeat: no-repeat;
+
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #1D3864;
+}
 @media only screen and (max-width : 1140px) {
     .header__menu {
         width: calc(100% - 18rem);
@@ -616,6 +676,9 @@
             margin-bottom: 0;
         }
     }
+    .header__title {
+        font-size: 3.8rem;
+    }
 }
 
 @media only screen and (max-width : 640px) {
@@ -630,6 +693,9 @@
     .header__buttons {
         width: 100%;
         justify-content: space-around;
+    }
+    .header__title {
+        font-size: 3.4rem;
     }
 }
 
@@ -647,11 +713,16 @@
     .header__catalog-button {
         padding: 1.2rem;
     }
-
+    .header__title {
+        font-size: 3rem;
+    }
 }
 
 @media only screen and (max-width : 360px) {
     .header__catalog-icon {
         display: none;
+    }
+    .header__title {
+        font-size: 2.6rem;
     }
 }

@@ -2,26 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/img/img-creator.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-footer-link-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-footer-link-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-galleri-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-specoffers-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-specoffers-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-specoffers-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-specoffers-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/gallery.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/specoffers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/bg-header.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/category.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/page.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/components/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/main.scss" afterDir="false" />
     </list>
@@ -54,10 +43,16 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\objective\project-91-rc-auto\app" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -78,7 +73,8 @@
       <workItem from="1584092284191" duration="10814000" />
       <workItem from="1584152383507" duration="9012000" />
       <workItem from="1584244261703" duration="7326000" />
-      <workItem from="1584327055119" duration="21374000" />
+      <workItem from="1584327055119" duration="21554000" />
+      <workItem from="1584434483628" duration="13186000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -136,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584252001933</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Верстка  16.03.2020">
+      <created>1584365429557</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584365429558</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,21 +167,22 @@
     <MESSAGE value="Верстка хедера + главной 10.03.2020" />
     <MESSAGE value="Верстка главной + преимущества 13.03.2020" />
     <MESSAGE value="Верстка tender + services 15.03.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Верстка tender + services 15.03.2020" />
+    <MESSAGE value="Верстка  16.03.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Верстка  16.03.2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1584252000500">
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1584365428855">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584252000500" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584252003655">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584365428855" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584365431010">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584252003655" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584327055957">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584365431010" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1584434485078">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584327055957" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584434485078" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1584153155521">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

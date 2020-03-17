@@ -1,0 +1,23 @@
+.page {
+    padding: 5rem 0;
+}
+.page__box {
+    display: flex;
+    justify-content: space-between;
+}
+.page__main {
+    flex: 0 0 auto;
+    width: calc(75% - 1.5rem);
+}
+.page__aside {
+    width: calc(25% - 1.5rem);
+
+    > * {
+        &:not(:first-child) {
+            margin-top: 4rem;
+        }
+    }
+    .stock {
+        margin-right: -1.7rem;
+    }
+}

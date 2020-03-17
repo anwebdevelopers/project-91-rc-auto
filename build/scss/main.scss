@@ -126,7 +126,7 @@ body {
 .button {
 	@include btn;
 	padding: 1.5rem 2.5rem;
-	font-size: 1.8rem;
+	font-size: 1.6rem;
 	font-weight: 700;
 	color: #fff;
 	background-color: $color-main;
@@ -366,6 +366,10 @@ body {
 @import "components/gallery";
 @import "components/specoffers";
 @import "components/footer";
+
+@import "components/page";
+@import "components/category";
+@import "components/nav";
 
 //ALWAYS END
 

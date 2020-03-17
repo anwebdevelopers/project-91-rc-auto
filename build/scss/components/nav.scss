@@ -1,0 +1,126 @@
+.nav {
+    padding: 3.5rem 10%;
+    color: #fff;
+    background-color: $color-main;
+    border-bottom-right-radius: 4rem;
+    box-shadow: 0px -5px 44px rgba(29, 56, 100, 0.299771);
+
+    &[data-nav-title] {
+        &:before {
+            content: attr(data-nav-title);
+            display: block;
+            font-weight: 700;
+            font-size: 1.8rem;
+            letter-spacing: .1em;
+            text-transform: uppercase;
+        }
+    }
+
+    position: relative;
+
+    .tabs__buttons {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translateX(100%);
+        background-color: $color-main;
+        border-top-right-radius: 1.5rem;
+        border-bottom-right-radius: 1.5rem;
+        //overflow: hidden;
+
+        font-weight: 700;
+        font-size: 1.6rem;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+    .tabs__buttons-item {
+        padding: 2rem .8rem;
+        color: #536C8F;
+        background-color: #CBDEF0;
+        writing-mode: vertical-rl;
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover, &:active {
+            color: $color-accent;
+        }
+
+        &:first-child {
+            border-top-right-radius: 1rem;
+        }
+        &:last-child {
+            border-bottom-right-radius: 1rem;
+        }
+        &:not(:first-child) {
+            border-top-left-radius: 1rem;
+        }
+        &:not(:last-child) {
+            border-bottom-left-radius: 1rem;
+        }
+        &[active] {
+            color: #fff;
+            background-color: $color-main;
+        }
+    }
+}
+/*.nav__title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}*/
+
+.nav__box {
+    margin-top: 2rem;
+}
+.nav__item {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    font-size: 1.6rem;
+
+    li {
+        margin-top: 1.5rem;
+
+        &.current {
+            position: relative;
+            &:before {
+                content: '';
+                position: absolute;
+                top: .5em;
+                left: -1.5rem;
+                transform: translateX(-100%);
+                width: 3rem;
+                height: 4px;
+                background-color: $color-accent;
+            }
+            a {
+                opacity: 1;
+                color: #fff;
+            }
+        }
+        &.active {
+            a {
+                opacity: 1;
+                color: #fff;
+            }
+        }
+        a {
+            text-decoration: none;
+            color: inherit;
+            opacity: .5;
+            transition: .3s;
+
+            &:hover, &:active {
+                opacity: 1;
+                color: $color-accent;
+            }
+        }
+        ul {
+            margin: 0;
+            padding: 0 0 0 10%;
+            list-style: none;
+        }
+    }
+}
