@@ -104,3 +104,34 @@
     padding-top: 2rem;
     margin-top: auto;
 }
+
+@media only screen and (max-width : 1140px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+    .category__item {
+        width: calc(50% - 3rem);
+    }
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+    .category__box {
+        display: block;
+    }
+    .category__item {
+        width: auto;
+    }
+}

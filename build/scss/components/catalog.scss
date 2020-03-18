@@ -6,8 +6,8 @@
     justify-content: space-between;
 }
 .catalog__list {
-    flex: 0 0 auto;
-    width: 75%;
+    //flex: 0 0 auto;
+    //width: 75%;
     margin: 0 -1.5rem;
     display: flex;
     flex-wrap: wrap;
@@ -75,15 +75,15 @@
     word-wrap: break-word;
     transition: .3s;
 }
-.catalog__aside {
-    flex: 0 0 auto;
-    width: 25%;
+.catalog .page__aside {
+    //flex: 0 0 auto;
+    //width: 25%;
     margin-top: 8rem;
-    > * {
-        &:not(:first-child) {
-            margin-top: 4rem;
-        }
-    }
+    //> * {
+    //    &:not(:first-child) {
+    //        margin-top: 4rem;
+    //    }
+    //}
 }
 
 @media only screen and (max-width : 1140px) {
@@ -91,39 +91,39 @@
 }
 
 @media only screen and (max-width : 992px) {
-    .catalog__list {
-        width: 70%;
-    }
-    .catalog__aside {
-        width: 30%;
-    }
+    //.catalog {
+    //    width: 70%;
+    //}
+    //.catalog__aside {
+    //    width: 30%;
+    //}
     .catalog__item-title {
         font-size: 2.2rem;
     }
 }
 
 @media only screen and (max-width : 768px) {
-    .catalog__box {
-        display: block;
-    }
-    .catalog__list {
-        width: auto;
-    }
-    .catalog__aside {
+    //.catalog__box {
+    //    display: block;
+    //}
+    //.catalog {
+    //    width: auto;
+    //}
+    .catalog .page__aside {
         margin-top: 5rem;
-        width: auto;
-
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        > * {
-            &:not(:first-child) {
-                margin-top: 3rem;
-            }
-            flex: 0 0 auto;
-            width: calc(50% - 1.5rem);
-            margin-top: 3rem;
-        }
+    //    width: auto;
+    //
+    //    display: flex;
+    //    flex-wrap: wrap;
+    //    justify-content: space-between;
+    //    > * {
+    //        &:not(:first-child) {
+    //            margin-top: 3rem;
+    //        }
+    //        flex: 0 0 auto;
+    //        width: calc(50% - 1.5rem);
+    //        margin-top: 3rem;
+    //    }
     }
     .catalog__item-title {
         font-size: 2rem;
@@ -144,12 +144,12 @@
     .catalog__item-title {
         font-size: 1.8rem;
     }
-    .catalog__aside {
-        display: block;
-        > * {
-            width: auto;
-        }
-    }
+    //.catalog__aside {
+    //    display: block;
+    //    > * {
+    //        width: auto;
+    //    }
+    //}
 }
 
 @media only screen and (max-width : 360px) {

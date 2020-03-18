@@ -1,5 +1,5 @@
 .nav {
-    padding: 3.5rem 10%;
+    padding: 3.5rem 2.5rem;
     color: #fff;
     background-color: $color-main;
     border-bottom-right-radius: 4rem;
@@ -79,6 +79,7 @@
     list-style: none;
 
     font-size: 1.6rem;
+    word-wrap: break-word;
 
     li {
         margin-top: 1.5rem;
@@ -119,8 +120,35 @@
         }
         ul {
             margin: 0;
-            padding: 0 0 0 10%;
+            padding: 0 0 0 2rem;
             list-style: none;
         }
     }
+}
+@media only screen and (max-width : 1140px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+    .nav {
+        .tabs__buttons-item {
+            padding: 2rem .5rem 2rem .3rem;
+        }
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
 }
