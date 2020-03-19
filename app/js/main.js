@@ -202,7 +202,6 @@
                     .find('.tabs__section').wrapAll('<div class="tabs__box"></div>')
                     .each(function () {
                         $tabs.find('.tabs__buttons').append('<div class="tabs__buttons-item">' + $(this).attr('data-tabs-title') + '</div>');
-
                     });
 
                 $tabs.find('> .tabs__buttons .tabs__buttons-item').first().attr('active', '');
@@ -210,7 +209,7 @@
                 $tabs.find('> .tabs__buttons').on('click', '.tabs__buttons-item:not( [ active ] )', function () {
                     $(this).attr('active', '').siblings().removeAttr('active').closest('.tabs').find('> .tabs__box > .tabs__section').slideUp(300).eq($(this).index()).slideDown(300);
                 });
-            });
+            }).attr('active','');
         }());
 
         /*******************************************************/

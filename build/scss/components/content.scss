@@ -1,3 +1,12 @@
 .content {
-    margin-top: 8rem;
+    &:not(:first-child) {
+        margin-top: 8rem;
+    }
+}
+@media only screen and (max-width : 480px) {
+    .content {
+        &:not( :first-child ) {
+            margin-top: 5rem;
+        }
+    }
 }

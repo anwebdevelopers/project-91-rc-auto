@@ -1,0 +1,55 @@
+.articles {
+
+}
+
+.articles__title {
+    margin: 0;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: $color-main;
+}
+.articles__list {
+    padding: 0;
+    list-style: none;
+    margin: 2rem 0 0 0;
+
+    font-size: 1.8rem;
+    color: #1D3864;
+    li {
+        margin-top: 1rem;
+        a {
+            color: inherit;
+            transition: .3s;
+
+            &:hover, &:active {
+                color: $color-accent;
+            }
+
+        }
+    }
+}
+@media only screen and (max-width : 1140px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+    .articles__title {
+        font-size: 2.8rem;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+
+}
+
+@media only screen and (max-width : 640px) {
+
+}
+
+@media only screen and (max-width : 480px) {
+
+}
+
+@media only screen and (max-width : 360px) {
+
+}
