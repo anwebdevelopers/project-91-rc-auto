@@ -292,7 +292,103 @@
             });
         }());
 
+        //*********************************************************//
+        //YANDEX MAP
+        //*********************************************************//
+        ( function() {
 
+            const mapElem = document.querySelector( '#map' );
+
+            if (mapElem) {
+                const lazyLoadMap = new IntersectionObserver(
+
+                    function( entries ) {
+
+                        for ( let i = 0; i < entries.length; i++  ) {
+
+                            const entry = entries[ i ];
+                            const target = entry.target;
+
+                            if ( entry.isIntersecting ) {
+
+                                const script = document.createElement( 'script' );
+
+                                script.src = '//api-maps.yandex.ru/2.1/?lang=ru_RU';
+
+                                document.getElementsByTagName( 'head' )[ 0 ].appendChild( script );
+
+                                script.onload = function() {
+
+                                    ymaps.ready( function() {
+
+                                        const myMap = new ymaps.Map( 'map', {
+                                            center: [ 57.626595, 39.891324 ],
+                                            zoom: 8,
+                                            controls: [],
+                                            behaviors: [ 'drag', 'dblClickZoom', 'rightMouseButtonMagnifier', 'multiTouch' ]
+                                        }, {
+                                            searchControlProvider: 'yandex#search'
+                                        });
+
+                                        //Элементы управления
+                                        myMap.controls.add( 'zoomControl', {
+                                            size: 'small',
+                                            position: {
+                                                top: 'auto',
+                                                right: 10,
+                                                bottom: 50
+                                            }
+                                        } );
+
+                                        myMap.geoObjects.add( new ymaps.Placemark(
+                                            [ 57.626595, 39.891324 ],
+                                            {
+                                                hintContent: 'Адрес: г. Москва, ул. Крылатская, д.15',
+                                                balloonContent: 'Адрес: г. Москва, ул. Крылатская, д.15',
+                                            },
+                                            {
+                                                iconLayout: 'default#image',
+                                                iconImageHref: 'img/icon-mark.svg',
+                                                iconImageSize: [ 53, 62 ],
+                                                iconImageOffset: [- 26, -62 ],
+                                            }
+                                        ) );
+
+                                        //Вкл/Выкл драг карты при адаптиве
+                                        const manageDrag = function() {
+                                            window.innerWidth <= 992 ? myMap.behaviors.disable( 'drag' ) : myMap.behaviors.enable( 'drag' )
+                                        };
+                                        window.onload = manageDrag
+                                        window.onresize = manageDrag
+
+                                        //перерисуем карту по ресайзу
+                                        typeof ResizeObserver === 'object' && new ResizeObserver( function( entries ) {
+                                            myMap.container.fitToViewport()
+                                        } ).observe( mapElem );
+
+                                        //перерисуем карту после инициализации
+                                        myMap.container.fitToViewport();
+
+                                    } );
+
+                                }
+
+                                lazyLoadMap.unobserve( target );
+                            }
+                        }
+                    },
+                    {
+                        root: null,
+                        rootMargin: ( window.innerHeight / 2 ) + 'px ' + ( window.innerWidth / 2 ) + 'px',
+                        threshold: [ 0 ],
+                    }
+                );
+
+                // Start observing an element
+                lazyLoadMap.observe( mapElem );
+            }
+
+        } () );
     });
 
 }(jQuery));

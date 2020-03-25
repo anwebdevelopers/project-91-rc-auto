@@ -1,0 +1,58 @@
+.contacts {
+    padding: 8rem 0;
+}
+.contacts__head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contacts__title {
+    flex: 0 1 auto;
+    margin: 0 4rem 0 0;
+    font-size: 4.8rem;
+    color: #0057AA;
+}
+.contacts__select {
+    flex: 0 1 auto;
+    select {
+         -webkit-appearance: none;
+         -moz-appearance: none;
+         -ms-appearance: none;
+         -o-appearance: none;
+         appearance: none!important;
+
+        display: block;
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background: none;
+        border-radius: 0;
+
+        padding: 1rem 3.5rem 1rem 2rem;
+        font-size: 1.6rem;
+        line-height: 1;
+        border-radius: .8rem;
+        border: 1px solid currentColor;
+        color: #0057AA;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 9 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0H9L4.71429 6L0 0Z' fill='%230057AA'/%3E%3C/svg%3E%0A");
+        background-position: calc(100% - 1.5rem) 50%;
+        -webkit-background-size: .9rem .6rem;
+        background-size: .9rem .6rem;
+        background-repeat: no-repeat;
+    }
+}
+.contacts__map {
+    margin-top: 3rem;
+    min-height: 50rem;
+}
+.contacts__box {
+    padding: 3rem;
+    background-color: #F0F8FF;
+
+
+}
+.contacts__main {
+
+}
