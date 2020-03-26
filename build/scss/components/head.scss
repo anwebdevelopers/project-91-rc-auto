@@ -3,7 +3,7 @@
     align-items: center;
 }
 .head__image {
-    margin: 0;
+    margin: 0 3rem 0 0;
     flex: 0 0 auto;
     img {
         max-width: 100%;
@@ -11,16 +11,19 @@
         height: auto;
     }
 }
-.head__title {
+.head__content {
     flex: 0 1 auto;
-    margin-left: 3rem;
+    margin-right: 3rem;
+}
+.head__title {
+    margin: 0;
     font-size: 2.4rem;
     font-weight: 400;
     color: #333;
 }
 .head__button {
     flex: 0 0 auto;
-    margin-left: 3rem;
+    margin: 3rem 0;
 }
 @media only screen and (max-width : 1140px) {
 
@@ -30,8 +33,11 @@
     .head {
         display: block;
     }
+    .head__image {
+        margin: 0;
+    }
     .head__title {
-        margin-left: 0;
+        margin-right: 0;
         margin-top: 3rem;
     }
     .head__button {
@@ -45,15 +51,19 @@
 }
 
 @media only screen and (max-width : 640px) {
-
-}
-
-@media only screen and (max-width : 480px) {
     .head__title {
         font-size: 2.2rem;
     }
 }
 
-@media only screen and (max-width : 360px) {
+@media only screen and (max-width : 480px) {
+    .head__title {
+        font-size: 2rem;
+    }
+}
 
+@media only screen and (max-width : 360px) {
+    .head__title {
+        font-size: 1.8rem;
+    }
 }

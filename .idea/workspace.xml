@@ -2,18 +2,495 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42f91a77-5f6e-47ea-8c83-f0eb74a5d28b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/contacts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/img/img-about.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/specoffers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/contacts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/numbers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/shares.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/scss/components/suppliers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/delivery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/img/img-delivery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/scss/components/deliveries.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/credit.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/credit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/img/0.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/full.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/ROADMAP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/_config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/bird_blue_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/feature-drag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/feature-modern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/feature-module.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/feature-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/feature-responsive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/feature-zombie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/owl-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/img/twitter_25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/animate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/autoheight.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/autoplay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/autowidth.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/center.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/demos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/lazyLoad.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/merge.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/mousewheel.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/responsive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/rtl.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/stagepadding.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/urlhashnav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/demos/video.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/api-classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/api-events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/api-options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/dev-buildin-plugins.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/dev-external.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/dev-plugin-api.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/dev-styles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/started-faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/started-installation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/started-welcome.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/support-changelog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/support-contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/docs/support-contributing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/bird_blue_32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/download.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/feature-drag.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/feature-modern.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/feature-module.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/feature-options.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/feature-responsive.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/feature-zombie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/owl-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/img/twitter_25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/scss/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/scss/custom.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/scss/demos.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/vendors/highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.mousewheel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/data/classes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/data/events.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/data/features.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/data/options.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/helpers/modulo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/helpers/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/layouts/demos.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/layouts/docs.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/layouts/home.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/animate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoheight.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoplay.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autowidth.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/basic.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/center.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/demos.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/events.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/lazyLoad.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/merge.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/mousewheel.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/responsive.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/rtl.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/stagepadding.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/test.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/urlhashnav.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/video.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-classes.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-events.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-options.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-external.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-plugin-api.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-styles.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-faq.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-installation.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-welcome.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-changelog.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contact.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contributing.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/pages/index.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/footer.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/head.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/header.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/home-carousel.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/home-features.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/home-hero.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/home-teaser-text.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/javascripts.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/releated-docs.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/sidenav-docs.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/title.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/docs_src/templates/partials/vendors.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/img/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/img/owl.video.play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.animate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.autoheight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.autoplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.autorefresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.carousel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.hash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.lazyload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.navigation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.support.modernizr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/js/owl.video.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/_animate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/_autoheight.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/_lazyload.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/_theme.default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/_theme.green.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/_theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/_video.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/owl.carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/owl.theme.default.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/src/scss/owl.theme.green.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/test/unit/autoplay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/OwlCarousel2-2.3.4/test/unit/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Any_finger_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Basic_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Enable_and_destroy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Excluded_children.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Finger_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Handlers_and_events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Hold.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Image_gallery_example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Page_scrolling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Page_zoom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Pinch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Pinch_and_Swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Pinch_status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Single_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Stop_propegation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Swipe_status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Tap_vs_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Thresholds.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/Trigger_handlers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/js/jquery.ui.ipad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/demos/tutorials.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/$.fn.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/$.fn.swipe.defaults.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/$.fn.swipe.directions.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/$.fn.swipe.fingers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/$.fn.swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/$.fn.swipe.pageScroll.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/$.fn.swipe.phases.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/$.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/jquery.touchSwipe.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/js/jquery.ui.ipad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/scripts/linenumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/scripts/prettify/Apache-License-2.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/scripts/prettify/lang-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/scripts/prettify/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/styles/jsdoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/styles/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Any_finger_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Basic_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Enable_and_destroy.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Excluded_children.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Finger_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Handlers_and_events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Hold.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Image_gallery_example.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Options.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Page_scrolling.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Page_zoom.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Pinch.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Pinch_and_Swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Pinch_status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Single_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Stop_propegation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Swipe_status.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Tap_vs_swipe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Thresholds.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-Trigger_handlers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/docs/tutorial-index_.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/jquery.touchSwipe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/jquery.touchSwipe.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/TouchSwipe-Jquery-Plugin-master/TouchSwipe-Jquery-Plugin-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/animate/animate-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/animate/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/animate/animate.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/cssrelpreload/cssrelpreload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/css/font-awesome.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-easing/jquery.easing.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-equalheight/jquery.equalheight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-equalheight/jquery.equalheight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_bg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_bn_BD.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_bn_BD.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ca.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_cs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_da.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_el.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_es.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_es_AR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_es_AR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_es_PE.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_es_PE.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_et.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_et.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_eu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_eu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_fa.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_fr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ge.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ge.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_gl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_gl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_he.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_hr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_hu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_hy_AM.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_hy_AM.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_is.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_is.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_it.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ja.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ka.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ka.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_kk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_kk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ko.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_lt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_lv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_lv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_mk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_mk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_my.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_no.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_no.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_pl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_pt_BR.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_pt_BR.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_pt_PT.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_pt_PT.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_ru.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_si.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_si.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sr_lat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sr_lat.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_sv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_th.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_tj.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_tj.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_tr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_uk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_uk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_vi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_zh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_zh.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_zh_TW.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/messages_zh_TW.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_es_CL.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_es_CL.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/jquery-validation/localization/methods_pt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/.bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/.jshintrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/Gruntfile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/dist/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/dist/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/magnific-popup.jquery.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/css/_settings.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/css/main.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/gallery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/iframe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/image.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/inline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/retina.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/magnific-popup/src/js/zoom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/mixitup/jquery.mixitup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/mixitup/mixitup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/page-scroll-to-id/jquery.malihu.PageScroll2id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/config.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/fonts/slick.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/fonts/slick.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/fonts/slick.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/fonts/slick.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/slick-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/slick-theme.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/slick-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/slick.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/slick.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/slick.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/slick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/slick/slick.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/libs/waypoints/waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scss/components/head.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/components/head.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
     </list>
     <list id="bf1cc2a1-eed9-4673-be9b-2a8bb0ebd5de" name="ignore" comment="ignore" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +555,8 @@
       <workItem from="1584434483628" duration="13443000" />
       <workItem from="1584504290590" duration="14164000" />
       <workItem from="1584586968949" duration="15308000" />
-      <workItem from="1585107179348" duration="8906000" />
+      <workItem from="1585107179348" duration="8933000" />
+      <workItem from="1585199499864" duration="4689000" />
     </task>
     <task id="LOCAL-00001" summary="Стартовый коммит">
       <created>1565692588708</created>
@@ -164,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584620464121</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Верстка 25.03.2020">
+      <created>1585135078075</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1585135078075</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,21 +681,26 @@
     <MESSAGE value="Верстка футер + категория  17.03.2020" />
     <MESSAGE value="Верстка детальная  18.03.2020" />
     <MESSAGE value="Верстка 19.03.2020" />
-    <option name="LAST_COMMIT_MESSAGE" value="Верстка 19.03.2020" />
+    <MESSAGE value="Верстка 25.03.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Верстка 25.03.2020" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1584620462558">
+    <state x="699" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585209063614">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584620462558" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1584620466007">
+    <state x="699" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585209063614" />
+    <state x="585" y="114" key="CommitChangelistDialog2" timestamp="1585135076826">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1584620466007" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585109632909">
+    <state x="585" y="114" key="CommitChangelistDialog2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585135076826" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1585135081659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585109632909" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585135081659" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1585199503227">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1585199503227" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1584610584299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
